@@ -20,6 +20,7 @@ This is a small PlatformIO project for an ESP32 DevKit running Arduino framework
 - `lib/` is for private project libraries.
 - `test/` is for PlatformIO tests.
 - `docs/` contains wiring notes and simulation assets.
+- `variants/` contains simple effect examples that can be copied into `src/main.cpp` and flashed.
 
 ## Common Commands
 
@@ -50,6 +51,8 @@ Be careful with changes that increase current draw. Large brightness or all-whit
 
 - Keep firmware changes simple and readable; this project is intentionally small.
 - Prefer Arduino/FastLED idioms already present in `src/main.cpp`.
+- Prefer keeping standalone effect examples in `variants/` instead of adding complex mode-switching infrastructure.
+- When creating or improving effects, consider adapting examples from the official FastLED examples collection: https://github.com/FastLED/FastLED/tree/master/examples
 - Put reusable declarations in `include/` only when they are shared across multiple source files.
 - Add comments only where they clarify hardware constraints, timing, or non-obvious behavior.
 - Keep generated artifacts out of the repo unless the user explicitly asks for them.

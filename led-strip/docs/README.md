@@ -25,3 +25,7 @@
 ## Simulation
 
 Wokwi diagram available in `diagram.json`.
+
+## Variants
+
+Example effects are kept in `/variants`. Copy one into `main.cpp`, then build and flash.
