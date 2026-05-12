@@ -1,0 +1,1 @@
+look for more variants in "/variants" folder, just copy-paste to main.cpp and run
