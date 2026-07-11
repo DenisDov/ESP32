@@ -32,3 +32,8 @@ graph TD
     C[Button pressed] -->|"pin shorted to GND through button"| D["digitalRead() == LOW"]
     D --> E["handleButtons() sees falling edge → startMeasurement()"]
 ```
+
+
+## Related React Native app for testing
+
+[GitHub](https://github.com/DenisDov/gluco-keto-buttons)
