@@ -1,3 +1,6 @@
+# Simple BLE device - send random Ketone or Glucose values by pressinf respective button 
+
+
 ```mermaid
 graph LR
     subgraph ESP32 [ESP32 DevKit]
