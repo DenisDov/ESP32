@@ -9,10 +9,12 @@
 
 | ESP32 | OLED |
 |-------|------|
-| 3V3 | VCC |
+| 3V3 | VDD |
 | GND | GND |
 | GPIO21 (SDA) | SDA |
-| GPIO22 (SCL) | SCL |
+| GPIO22 (SCL) | SCK |
+
+Some SSD1306 modules label VCC/SCL as VDD/SCK — same signals, same wiring.
 
 ## I2C address
 
