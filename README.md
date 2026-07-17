@@ -15,7 +15,7 @@ Most projects target the classic **ESP32 DevKit** (`esp32dev`); `s3-matrix-rainb
 | [ble-beacon](ble-beacon/) | BLE server broadcasting periodic iBeacon frames | — |
 | [keto-gluco-buttons](keto-gluco-buttons/) | Two-button BLE device that sends glucose/ketone measurement events as JSON over BLE | Push buttons ×2, ArduinoJson |
 | [temp-humidity](temp-humidity/) | Reads a DHT22 (AM2302) sensor and logs temperature/humidity to serial | DHT22, Adafruit DHT + Unified Sensor |
-| [temp-humidity-with-screen](temp-humidity-with-screen/) | DHT22 readings, intended for display on a screen | DHT22, Adafruit DHT + Unified Sensor |
+| [temp-humidity-with-screen](temp-humidity-with-screen/) | DHT22 readings shown on a 128×64 SSD1306 OLED ([wiring](temp-humidity-with-screen/docs/README.md)) | DHT22, SSD1306 OLED, Adafruit DHT + SSD1306 + GFX |
 | [lcd-screen](lcd-screen/) | Drives a 128×64 SSD1306 OLED over I2C (SDA 21 / SCL 22, address 0x3C) | SSD1306 OLED, Adafruit SSD1306 + GFX |
 | [soil-moisture](soil-moisture/) | Capacitive soil-moisture sensor on GPIO 34 with dry/wet calibration and watering alerts | Soil-moisture sensor |
 | [led-strip](led-strip/) | WS2812B strip animations (30 LEDs on GPIO 16) with extra effect variants in `variants/` | WS2812B strip, FastLED |
