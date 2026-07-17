@@ -86,3 +86,9 @@ pio device monitor  # serial output at 115200 baud
 | `Failed to read from DHT22 sensor` | DATA not on GPIO4, missing pull-up on a bare sensor, or loose power wire |
 | Readings are `nan` only sometimes | DHT22 needs ~2 s between reads (already handled in code); check for a flaky breadboard contact |
 | Nothing on serial | Monitor baud must be **115200** |
+
+## Result
+
+![Assembled build: ESP32 on a screw-terminal breakout, DHT22, and the OLED showing 29.2 °C](final-build.jpg)
+
+There is also a short demo clip in [docs/471EEE61-C3FB-41E9-AF11-D8ACBEFE451D.MP4](471EEE61-C3FB-41E9-AF11-D8ACBEFE451D.MP4).
