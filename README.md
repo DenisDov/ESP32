@@ -1,4 +1,4 @@
-# esp2026 — ESP32 Playground
+# ESP32 Playground
 
 A collection of small, self-contained ESP32 projects built with [PlatformIO](https://platformio.org/) and the Arduino framework. Each folder is an independent PlatformIO project — open it directly in VS Code (with the PlatformIO extension) or build it from the command line.
 
