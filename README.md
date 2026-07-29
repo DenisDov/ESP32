@@ -4,9 +4,9 @@ A collection of small, self-contained ESP32 projects built with [PlatformIO](htt
 
 Most projects target the classic **ESP32 DevKit** (`esp32dev`); `s3-matrix-rainbow` targets the **ESP32-S3 DevKitC-1**.
 
-<img src="temp-humidity-with-screen/docs/4D2273F7-8B41-4CAE-9FBC-A8F3EEFA677C.JPG" alt="ESP32 DevKit with a DHT22 sensor and SSD1306 OLED showing live temperature and humidity" width="600">
+<img src="soil-moisture/docs/IMG_1723.jpg" alt="soil-moisture" width="600">
 
-*The [temp-humidity-with-screen](temp-humidity-with-screen/) project: DHT22 readings on a 128×64 OLED.*
+*The [soil-moisture](soil-moisture/) project: Soil moisture readings
 
 ## Projects
 
